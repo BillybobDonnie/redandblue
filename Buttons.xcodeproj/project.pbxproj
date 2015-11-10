@@ -22,6 +22,8 @@
 		2E9D5FB71BF15ACB00A22017 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9D5F961BF15ACB00A22017 /* UIKit.framework */; };
 		2E9D5FBF1BF15ACB00A22017 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D5FBD1BF15ACB00A22017 /* InfoPlist.strings */; };
 		2E9D5FC11BF15ACB00A22017 /* ButtonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9D5FC01BF15ACB00A22017 /* ButtonsTests.m */; };
+		2E9D5FCB1BF15B0200A22017 /* images-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D5FCA1BF15B0200A22017 /* images-1.jpeg */; };
+		2E9D5FCD1BF15B0D00A22017 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2E9D5FCC1BF15B0D00A22017 /* images.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		2E9D5FBC1BF15ACB00A22017 /* ButtonsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonsTests-Info.plist"; sourceTree = "<group>"; };
 		2E9D5FBE1BF15ACB00A22017 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2E9D5FC01BF15ACB00A22017 /* ButtonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonsTests.m; sourceTree = "<group>"; };
+		2E9D5FCA1BF15B0200A22017 /* images-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-1.jpeg"; sourceTree = "<group>"; };
+		2E9D5FCC1BF15B0D00A22017 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 				2E9D5FAA1BF15ACB00A22017 /* CSViewController.h */,
 				2E9D5FAB1BF15ACB00A22017 /* CSViewController.m */,
 				2E9D5FAD1BF15ACB00A22017 /* Images.xcassets */,
+				2E9D5FCA1BF15B0200A22017 /* images-1.jpeg */,
+				2E9D5FCC1BF15B0D00A22017 /* images.jpeg */,
 				2E9D5F991BF15ACB00A22017 /* Supporting Files */,
 			);
 			path = Buttons;
@@ -236,6 +242,8 @@
 				2E9D5FAE1BF15ACB00A22017 /* Images.xcassets in Resources */,
 				2E9D5FA61BF15ACB00A22017 /* Main_iPhone.storyboard in Resources */,
 				2E9D5F9D1BF15ACB00A22017 /* InfoPlist.strings in Resources */,
+				2E9D5FCB1BF15B0200A22017 /* images-1.jpeg in Resources */,
+				2E9D5FCD1BF15B0D00A22017 /* images.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,8 @@
 #import "CSViewController.h"
 
 @interface CSViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *blue;
+@property (weak, nonatomic) IBOutlet UIImageView *red;
 
 @end
 
@@ -25,5 +27,14 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)hideRed:(id)sender {
+    _blue.hidden = true;
+}
+- (IBAction)hideBlue:(id)sender {
+    _red.hidden = true;
+}
+
+
+
 
 @end
